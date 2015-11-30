@@ -1,0 +1,29 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "System.Reactive.Linq",
+  "authors": [ "Nick" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": { "define": [ "NO_SERIALIZABLE" ] },
+
+  "exclude": [
+    "Reactive/Internal/ImmutableList.cs",
+    "Reactive/Internal/Observers.cs",
+    "Reactive/Internal/Producer.cs",
+    "Reactive/Observer.Extensions.cs"
+  ],
+ 
+
+  "dependencies": {
+    "Microsoft.NETCore.Runtime": "1.0.1-beta-*",
+    "System.Runtime": "4.0.21-beta-*",
+    "System.Reactive.Interfaces": "",
+    "System.Reactive.Core"  : ""
+  },
+
+  "frameworks": {
+    "dnxcore50": { }
+  }
+}

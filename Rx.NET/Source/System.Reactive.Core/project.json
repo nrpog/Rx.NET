@@ -1,0 +1,26 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "System.Reactive.Core",
+  "authors": [ "Nick" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": {"define": ["NO_SERIALIZABLE"]},
+
+  "dependencies": {
+    "Microsoft.NETCore.Runtime": "1.0.1-beta-*",
+    "System.Runtime": "4.0.21-beta-*",
+    "System.Runtime.Extensions": "4.0.11-beta-*",
+    "System.Collections.Concurrent": "4.0.11-beta-*",
+    "System.ComponentModel": "4.0.1-beta-*",
+    "System.Threading": "4.0.11-beta-*",
+    "System.Threading.Thread": "4.0.0-beta-*",
+    "System.Threading.ThreadPool": "4.0.10-beta-*",
+    "System.Reactive.Interfaces"  : ""
+  },
+
+  "frameworks": {
+    "dnxcore50": { }
+  }
+}

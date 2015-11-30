@@ -237,6 +237,14 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="project.json" />
+  </ItemGroup>
   <Import Project="..\Import.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties project_1json__JSONSchema="http://json.schemastore.org/project-1.0.0-beta8" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>

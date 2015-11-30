@@ -10,7 +10,7 @@
  */
 
 // Required for the use of the GetTypeInfo extension method.
-#if CRIPPLED_REFLECTION
+#if CRIPPLED_REFLECTION || DNXCORE50
 using System.Reflection;
 #endif
 
@@ -53,7 +53,7 @@ namespace System.Reactive
             {
                 if (object.ReferenceEquals(resourceMan, null))
                 {
-#if (CRIPPLED_REFLECTION && HAS_WINRT)
+#if ((CRIPPLED_REFLECTION && HAS_WINRT) || DNXCORE50)
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("System.Reactive.Strings_Core", typeof(Strings_Core).GetTypeInfo().Assembly);
 #else
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("System.Reactive.Strings_Core", typeof(Strings_Core).Assembly);

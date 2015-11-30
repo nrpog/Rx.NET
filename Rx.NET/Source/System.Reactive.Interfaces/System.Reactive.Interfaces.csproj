@@ -50,7 +50,9 @@
     <Compile Include="Reactive\Subjects\ISubject.cs" />
     <Compile Include="Reactive\Subjects\ISubject.Multi.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="project.json" />
+  </ItemGroup>
   <Import Project="..\Import.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
 </Project>

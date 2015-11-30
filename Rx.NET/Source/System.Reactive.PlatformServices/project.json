@@ -1,0 +1,23 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "System.Reactive.PlatformServices",
+  "authors": [ "Nick" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  
+  "exclude": ["Strings_PlatformServices.Designer.cs"],
+
+  "dependencies": {
+    "Microsoft.NETCore.Runtime": "1.0.1-beta-*",
+    "System.Runtime": "4.0.21-beta-*",
+    "System.Reactive.Interfaces": "",
+    "System.Reactive.Core"  : "",
+	  "System.Reactive.Linq"  : ""
+  },
+
+  "frameworks": {
+    "dnxcore50": { }
+  }
+}
